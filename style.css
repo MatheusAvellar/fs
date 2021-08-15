@@ -1,0 +1,46 @@
+html {
+  font-family: "Inter", "Roboto", sans-serif;
+  color: #111;
+  background-color: #fefefe;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", "Roboto", sans-serif;
+  }
+}
+body {
+  margin: 1em;
+}
+header, main, footer {
+  max-width: 800px;
+  margin: auto;
+}
+footer {
+  padding-bottom: 1em;
+}
+h1, h2, h3 {
+  margin: 1.5em 0 .5em;
+}
+ul {
+  padding: 0 1em;
+  margin: 0;
+  list-style: none;
+}
+li {
+  border-left: 4px solid #ddd;
+  padding: 0 1em;
+  margin: .75em 0;
+}
+p {
+  margin: 0;
+}
+a[href] {
+  color: #2767d9;
+  text-decoration: none;
+}
+a[href]:hover, a[href]:focus {
+  text-decoration: underline;
+}
+b, .description {
+  font-weight: 600;
+}
